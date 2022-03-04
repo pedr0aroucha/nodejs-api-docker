@@ -1,0 +1,14 @@
+{
+	"name": "nodejs-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "export PORT=3000; nodemon index.js",
+		"start": "node index.js"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
